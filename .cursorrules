@@ -1,0 +1,11 @@
+# Cursor Rules
+# Do not read or access .env files
+# Do not read or access environment variables containing API keys or secrets
+# Do not show contents of .env files
+
+# Ignore patterns
+.env
+.env.*
+**/secrets/**
+**/.env
+**/.env.*

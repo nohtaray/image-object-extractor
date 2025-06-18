@@ -1,0 +1,17 @@
+{
+  "ignorePatterns": [
+    ".env",
+    ".env.*",
+    ".env.local",
+    ".env.*.local",
+    "**/secrets/**",
+    "**/.env",
+    "**/.env.*",
+    "*.key",
+    "*.pem",
+    "*.p12",
+    "*.keystore",
+    "config/secrets.yaml",
+    "config/secrets.json"
+  ]
+}
